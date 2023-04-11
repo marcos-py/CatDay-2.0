@@ -30,6 +30,41 @@ body, html {
 header h1 {
     text-align: center;
     font-size: max(18px, 3vw);
-    margin-top: 23rem;
+    margin-top: 24rem;
     margin-left: 3rem;
+}
+
+
+aside span{
+    position: absolute;
+    top: 50%;
+    margin-left: 12rem;
+}
+
+aside strong{
+    color:rgb(231, 46, 154);
+    font-size: max(30px, 2vw);
+}
+
+aside img {
+    max-width: 280px;
+    max-height: 450px;
+    margin: auto;
+    display: block;
+    margin-top: 16%;
+    border-radius: 10px;
+    filter: opacity(.4);
+    box-shadow: 3px 3px 3px 1px rgb(252, 250, 250);
+}
+
+aside button {
+    position: absolute;
+    font-family: 'Amatic SC', cursive;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: max(28px, 2vw);
+    top: 10%;
+    left: 7%;
+    color: #ebf43c;
+    transform: rotate(-35deg);
+    box-shadow: 5px 5px 10px;
 }
