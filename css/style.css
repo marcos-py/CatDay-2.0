@@ -11,7 +11,7 @@ body, html {
     color: azure;
 }
 
-.container{
+.container {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -21,7 +21,7 @@ body, html {
     align-items: center;
 }
 
-.child{
+.child {
     width: 33%;
     height: 59rem;
     border: 1px solid yellow;
@@ -31,9 +31,24 @@ header h1 {
     position: fixed;
     text-align: center;
     font-size: max(18px, 3vw);
-    margin-top: 18rem;
-    margin-left: 8rem;
 }
+
+@media (min-width: 1400px) {
+    header h1 {
+        margin-top: 18rem;
+        margin-left: 8rem;
+    }
+
+}
+
+@media (min-width: 1600px) {
+    header h1 {
+        margin-top: 22rem;
+        margin-left: 8rem;
+    }
+
+}
+
 
 aside img {
     max-width: 280px;
@@ -103,14 +118,14 @@ main button:hover {
     color: #eb4182;
 }
 
-main span{
+main span {
     position: absolute;
     top: 48%;
     margin-left: 12rem;
 }
 
-main strong{
-    color:rgb(234, 236, 100);
+main strong {
+    color: rgb(234, 236, 100);
     font-size: max(30px, 2vw);
     text-shadow: 0.7px 0.7px #d8cccc;
 }
