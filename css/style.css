@@ -39,6 +39,12 @@ header h1 {
         margin-left: 8rem;
     }
 
+    main span {
+        top: 46%;
+        margin-left: 9rem;
+    }
+
+
 }
 
 @media (min-width: 1600px) {
@@ -47,8 +53,12 @@ header h1 {
         margin-left: 8rem;
     }
 
-}
+    main span {
+        top: 48%;
+        margin-left: 12rem;
+    }
 
+}
 
 aside img {
     max-width: 280px;
@@ -120,14 +130,16 @@ main button:hover {
 
 main span {
     position: absolute;
-    top: 48%;
-    margin-left: 12rem;
 }
 
 main strong {
     color: rgb(234, 236, 100);
     font-size: max(30px, 2vw);
     text-shadow: 0.7px 0.7px #d8cccc;
+}
+
+main strong:hover{
+    color: #eb4182;
 }
 
 main p {
