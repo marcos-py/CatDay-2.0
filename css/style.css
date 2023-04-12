@@ -28,10 +28,11 @@ body, html {
 }
 
 header h1 {
+    position: fixed;
     text-align: center;
     font-size: max(18px, 3vw);
-    margin-top: 24rem;
-    margin-left: 3rem;
+    margin-top: 18rem;
+    margin-left: 8rem;
 }
 
 aside img {
@@ -90,9 +91,9 @@ main button {
     position: absolute;
     font-family: 'Amatic SC', cursive;
     background-color: rgba(0, 0, 0, 0.5);
-    font-size: max(24px, 2vw);
+    font-size: max(30px, 2vw);
     top: 10%;
-    left: 74%;
+    left: 72%;
     color: #ebf43c;
     transform: rotate(-35deg);
     box-shadow: 5px 5px 10px;
