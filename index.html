@@ -18,14 +18,17 @@
         <div class="child">
             <aside>
                 <div id="fake-template" class="fake-template">
-                    <audio id="sara-gostosa" controls="controls" style="display: none;">
-                        <source src="/midia/sara_gostosa.mp3" type="audio/mp3" />
-                    </audio>
                     <img src="/midia/fake-template.jpg" alt="fake-template" width="280" height="450">
-                    <button id="fake-button">MyDream😽</button>
+                    <button id="fake-button" onclick="toggleUkulele()" onmouseover="fakeMouseOver()"
+                        onmouseout="fakeMouseOut()">Primeira vez que ouvir a<br>garota dos meus sonhos tocar<br>ukelele
+                        pra mim😽</button>
+                    <div class="secret-audio" id="secret-audio" style="display: none;">
+                        <p>Cuidado!! foi assim que me <br>apaixonei da primeira vez 😳</p>
+                        <audio id="sara-ukulele" controls="controls">
+                            <source src="/midia/sara_ukulele.mp3" type="audio/mp3" />
+                        </audio>
+                    </div>
                 </div>
-                <span><a href="#" style="text-decoration: none;"><strong id="efeito"></strong></a></span>
-                <script src="/js/textEffect.js" type="text/javascript"></script>
             </aside>
         </div>
         <div class="child">
@@ -36,11 +39,37 @@
         </div>
         <div class="child">
             <main>
-
+                <img src="/midia/sara.gif" alt="dreamgirl" width="280" height="450">
+                <button id="dreamgirl" onmouseover="mouseOver()" onmouseout="mouseOut()">MeuSonho😽</button>
+                <p>Por favor selecione <br> uma das figuras <br> abaixo como seu presente <br>no fim de semana:</p>
+                <div class="box-present">
+                    <a href="https://wa.me/5588997475684?text=Mii%20dê%20o%20chocolate%20mais%20caro%20que%20você%20encontrar%20🥺🥺"
+                        target="_blank"> <img id="chocolate" src="/midia/chocolate.png" title="Caixa de Chocolate"
+                            width="60" height="60" /> </a>
+                    <a href="https://wa.me/5588997475684?text=Mii%20dê%20um%20pix%20bem%20gordoooo%20🤑🤑"
+                        target="_blank"> <img id="pix" src="/midia/pix.png" title="Pix" width="60" height="60" /> </a>
+                    <a href="https://wa.me/5588997475684?text=Mii%20dê%20uma%20blusa%20masculina%20da%20shein%20bemmm%20cumprida🥺🥺"
+                        target="_blank"> <img id="blouse-shein" src="/midia/shein.png" title="Blusa da Shein" width="60"
+                            height="60" />
+                    </a>
+                    <a href="https://wa.me/5588997475684?text=Mii%20dê%20outro%20livro%20pra%20coleção🥺🥺"
+                        target="_blank">
+                        <img id="book" src="/midia/livro.png" title="+1 Livro" width="60" height="60" /> </a>
+                </div>
+                <audio id="cebolinha" controls="controls" style="display: none;">
+                    <source src="/midia/sara_gostosa.mp3" type="audio/mp3" />
+                </audio>
+                <span><a href="#" style="text-decoration: none;" onclick="toggleAudio('cebolinha')"><strong id="efeito"></strong></a></span>
+                <script src="/js/textEffect.js" type="text/javascript"></script>
             </main>
         </div>
-    </div>
+         <!--<audio id="party-favor" controls="controls" autoplay style="display: none;">
+            <source src="/midia/Billie Eilish - party favor.mp3" type="audio/mp3" />
+        </audio> -->
 
+    </div>
+    <script src="/js/mouseover.js" type="text/javascript"></script>
+    <script src="/js/toggle.js" type="text/javascript"></script>
 </body>
 
 </html>
