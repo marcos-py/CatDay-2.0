@@ -140,15 +140,6 @@ aside h2 {
     margin-right: 2rem;
 }
 
-aside video {
-    border-radius: 10px;
-    filter: opacity(.7);
-    box-shadow: 3px 3px 3px 1px rgb(252, 250, 250);
-    margin: auto;
-    display: block;
-    margin-top: 6rem;
-}
-
 main img {
     max-width: 280px;
     max-height: 450px;
