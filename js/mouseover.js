@@ -7,11 +7,11 @@ function mouseOut(){
 }
 
 function fakeMouseOver(){
-    document.getElementById('fake-button').innerHTML = "Primeira vez que ouvir a<br>garota dos meus sonhos tocar<br>ukelele pra mim😻"
+    document.getElementById('button-audio-ukulele').innerHTML = "Primeira vez que ouvir a<br>garota dos meus sonhos tocar<br>ukelele pra mim😻"
 }
 
 function fakeMouseOut(){
-    document.getElementById('fake-button').innerHTML = "Primeira vez que ouvir a<br>garota dos meus sonhos tocar<br>ukelele pra mim😽"
+    document.getElementById('button-audio-ukulele').innerHTML = "Primeira vez que ouvir a<br>garota dos meus sonhos tocar<br>ukelele pra mim😽"
 }
 
 function  timelineMouseOver(){
