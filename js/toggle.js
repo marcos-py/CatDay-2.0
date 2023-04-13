@@ -1,7 +1,26 @@
-function toggleAudio(el){
-    const audio = document.getElementById(el);
-    audio.play();
+const ukuleleAudio = document.getElementById('audio-ukulele');
+const loboAudio = document.getElementById('lobo-pede');
+const cebolinhaAudio = document.getElementById('cebolinha');
+
+
+function toggleAudioUkulele(){
+    loboAudio.pause();
+    cebolinhaAudio.pause();
+    ukuleleAudio.play();
 }
+
+function toggleLobo(){  
+    cebolinhaAudio.pause();
+    ukuleleAudio.pause();  
+    loboAudio.play();
+}
+
+function toggleCebolinha(){
+    ukuleleAudio.pause();  
+    loboAudio.pause();
+    cebolinhaAudio.play();
+}
+
 
 function toggleTextinho() {
     document.getElementById('timeline').style.display = 'none';

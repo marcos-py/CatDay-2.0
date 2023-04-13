@@ -27,8 +27,8 @@
                         mais perfeitinha que eu poderia conhecer 🥺<br><br>
                         Sem falar na amizade mais fiel e romantizada que<br>
                         eu poderia ganhar, só você que fornece 🥰<br><br>
-                        Você é a gata mandona mais incrível que a vida<br>
-                        me deu. Não sei o que faria sem você😳<br>
+                        Você é a surtadinha mandona mais incrível<br>
+                        que a vida me deu. Não sei o que faria sem você😳<br>
                         (espero nunca precisar descobrir.)<br><br>
                         Parabéns e toda felicidade do mundo!! 🥳<br><br>
                         Te amo gatinha 💓
@@ -59,7 +59,7 @@
                         <span>02 de Junho de 2022</span>
                         <div class="content">
                           <h3>Primeira vez que tocou ukulele pra mim</h3>
-                          <a href="#" style="text-decoration: none;" onclick="toggleAudio('audio-ukulele')">
+                          <a href="#" style="text-decoration: none;" onclick="toggleAudioUkulele()">
                             <p>
                               Lembro que nesse dia, eu tava bem cansado de 4horas de viagem para fortaleza. Você mandou a primeira fotinha, que era você com o ukulele. Eu já tava xonado com teu jeitinho carinhoso, ai vendo a foto e escutando isso então. Já era todo seu. Admito que era só dizer:"Cabosi a farra! você é só meu agora! e nem um piu!". Era eu escutando e obdecendo calado já. kkk
                             </p>
@@ -96,7 +96,7 @@
                       <li>
                         <span>22 de Março de 2023</span>
                         <div class="content">
-                          <h3>Primeira vez que a Sara disse eu te amo pro marquinhos.</h3>
+                          <h3>Primeira vez que a Sara disse "eu te amo" pro marquinhos.</h3>
                           <p>
                               Bom, não tem muito o que dizer nesse. Nem foi um dia "feliz". Você tava bem mau por causa dos teus rolos ai com Zezin. Eu tava hytpado com o filme de D&D mas seguindo a minha experiência com você. Percebi que existe intensidade de "crises". <br><br>Como assim? aproveitando nossas conversas. Percebi que as vezes só conversar comigo basta pra te acalmar, mas nem sempre é tão útil. E ai eu comecei a pensar que tinha relação com a gravidade da situação. <br><br>Tu tava ansiosa com algo bem sério. Então não seria qualquer besteira que ia fazer você parar de pensar nisso. Tinha que ser algo com o mesmo impacto pra que sua cabeça focasse nisso e não no seu problema. <br><br>Então, eu pensei que uma coisa que me deixava um pouco desconfortável(Sim, infelizmente isso existe pra mim kk). Era falar de sentimentos. Então sair da minha zona de conforto e te contei tudo que me deixou completamente apaixonado por você. <br><br> E parece que funcionou né?! O seu celébro parou de focar no seu problema e me deu atenção. Eu tinha conseguido toda sua atenção pra mim. O que ajudou a te acalmar. Imaginei naquela hora que a conversa do D&D não ia te prender tanto e você ainda iria pensar no que tava tirando seu sossego. <br><br> Admito que por muitas vezes eu já quase soltei um "eu te amo" assim sem querer, mas muito naturalmente. Como eu faço quando viajo e me afasto de alguém que gosto. Mas devido eu já ter dito algumas vezes e não ter sido conrrespondido, eu não queria ser o cara triste que ia falar sempre e nunca ouvir. Então eu quase digitava muitas vezes, e quando eu percebia, reescrevia toda a mensagem antes de enviar kk para garantir que estou sendo reciploco. <br><br>Então foi muito bom ler de você pela primeira vez 💕
                            </p>
@@ -112,7 +112,7 @@
         <div class="child">
             <header>
                 <h1>Feliz dia da Sara!! <a href="#" style="text-decoration: none;"
-                        onclick="toggleTextinho()">💕</a><br>Love u 😽</h1>
+                        onclick="toggleTextinho()">💕</a><br>Love u 🐺</h1>
                 <div class="ster-eggs">
                     <a href="#"><img src="/midia/ukelele.png" alt="ukulele" width="70"
                             height="70"></a>
@@ -127,24 +127,27 @@
                 <img src="/midia/sara.gif" alt="dreamgirl" width="280" height="450">
                 <button id="dreamgirl" onmouseover="mouseOver()" onmouseout="mouseOut()">MeuSonho😽</button>
                 <p>Por favor selecione <br> uma das figuras <br> abaixo como seu presente <br>no fim de semana:</p>
+                <audio controls="controls" id="lobo-pede" style="display: none;">
+                  <source src="/midia/o lobo pede.mp3" type="audio/mp3" />
+              </audio>
                 <div class="box-present">
-                    <a href="https://wa.me/5588997475684?text=Mii%20dê%20o%20chocolate%20mais%20caro%20que%20você%20encontrar%20🥺🥺"
+                    <a onclick="toggleLobo()" href="https://wa.me/5588997475684?text=Mii%20dê%20o%20chocolate%20mais%20caro%20que%20você%20encontrar%20🥺🥺"
                         target="_blank"> <img id="chocolate" src="/midia/chocolate.png" title="Caixa de Chocolate"
                             width="60" height="60" /> </a>
-                    <a href="https://wa.me/5588997475684?text=Mii%20dê%20um%20pix%20bem%20gordoooo%20🤑🤑"
+                    <a onclick="toggleLobo()" href="https://wa.me/5588997475684?text=Mii%20dê%20um%20pix%20bem%20gordoooo%20🤑🤑"
                         target="_blank"> <img id="pix" src="/midia/pix.png" title="Pix" width="60" height="60" /> </a>
-                    <a href="https://wa.me/5588997475684?text=Mii%20dê%20uma%20blusa%20masculina%20da%20shein%20bemmm%20cumprida🥺🥺"
+                    <a onclick="toggleLobo()" href="https://wa.me/5588997475684?text=Mii%20dê%20uma%20blusa%20masculina%20da%20shein%20bemmm%20cumprida🥺🥺"
                         target="_blank"> <img id="blouse-shein" src="/midia/shein.png" title="Blusa da Shein" width="60"
                             height="60" />
                     </a>
-                    <a href="https://wa.me/5588997475684?text=Mii%20dê%20outro%20livro%20pra%20coleção🥺🥺"
+                    <a onclick="toggleLobo()" href="https://wa.me/5588997475684?text=Mii%20dê%20outro%20livro%20pra%20coleção🥺🥺"
                         target="_blank">
                         <img id="book" src="/midia/livro.png" title="+1 Livro" width="60" height="60" /> </a>
                 </div>
                 <audio id="cebolinha" controls="controls" style="display: none;">
                     <source src="/midia/sara_gostosa.mp3" type="audio/mp3" />
                 </audio>
-                <span><a href="#" style="text-decoration: none;" onclick="toggleAudio('cebolinha')"><strong
+                <span><a href="#" style="text-decoration: none;" onclick="toggleCebolinha()"><strong
                             id="efeito"></strong></a></span>
                 <script src="/js/textEffect.js" type="text/javascript"></script>
             </main>

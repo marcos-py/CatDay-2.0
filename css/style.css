@@ -81,7 +81,6 @@ header h1 {
     margin: 8px;
 }
 
-
 aside img {
     max-width: 280px;
     max-height: 450px;
@@ -92,13 +91,6 @@ aside img {
     filter: opacity(.2);
     box-shadow: 3px 3px 3px 1px rgb(144, 215, 224);
 }
-
-aside iflame {
-    position: absolute;
-    margin-top: 5rem;
-    top: 15rem;
-}
-
 
 aside a:hover{
     color: #fd70a6;
@@ -128,7 +120,7 @@ aside p :hover{
 
 aside h2 {
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 6rem;
     font-size: max(30px, 1vw);
     margin-right: 2rem;
 }
