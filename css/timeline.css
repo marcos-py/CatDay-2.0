@@ -4,8 +4,7 @@ body{
   align-items:left;
 }
 .timeline{
-  z-index: 0;
-  position: fixed;
+  position: absolute;
   width:30%;
   background-color: transparent;
   color:#fff;
@@ -34,16 +33,17 @@ body{
 }
 .timeline ul li .content h3{
   color:#ffffff;
-  font-size:20px;
+  font-size:22px;
   padding-top:5px;
 }
 .timeline ul li .content p{
   margin-top: 1rem;
   padding:5px 0px 15px 0px;
-  font-size:20px;
+  font-size:22px;
   border-radius: 10px;
-  color: #ec4082;
-  text-shadow: 0.8px 0.8px #d8cccc;
+  color: #ffffff;
+  text-shadow: 0.5px 0.5px #f2649a;
+  text-align: left;
 }
 .timeline ul li:before{
   position:absolute;

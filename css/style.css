@@ -98,19 +98,7 @@ aside iflame {
     margin-top: 5rem;
     top: 15rem;
 }
-aside a {
-    text-align: center;
-    position: absolute;
-    font-family: 'Amatic SC', cursive;
-    font-size: max(26px, 1vw);
-    top: 13%;
-    left: 10%;
-    color: rgb(234, 236, 100);
-    filter: opacity(.9);
-    text-shadow: 0.7px 0.7px #d8cccc;
-    text-decoration: none;
-    transform: rotate(-14deg);
-}
+
 
 aside a:hover{
     color: #fd70a6;
