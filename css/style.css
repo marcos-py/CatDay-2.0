@@ -44,6 +44,24 @@ header h1 {
         top: 46%;
         margin-left: 9rem;
     }
+
+    .ster-eggs {
+        margin-top: 26rem;
+        margin-left: 12rem;
+    }
+
+    .ster-eggs img {
+        width: 50px;
+        height: 50px;
+    }
+
+    main strong {
+        color: rgb(234, 236, 100);
+        font-size: max(30px, 2vw);
+        text-shadow: 0.7px 0.7px #d8cccc;
+        font-family: 'Amatic SC', cursive;
+        margin-left: 4rem;
+    }
 }
 
 @media (min-width: 1600px) {
@@ -62,6 +80,15 @@ header h1 {
         margin-left: 9rem;
     }
 
+    .ster-eggs img {
+        margin: 8px;
+        width: 60px;
+        height: 60px;
+    }
+
+    main strong {
+        margin-left: 2rem;
+    }
 }
 
 @media (min-width: 1700px) {
@@ -77,9 +104,7 @@ header h1 {
     justify-content: center;
 }
 
-.ster-eggs img {
-    margin: 8px;
-}
+
 
 aside img {
     max-width: 280px;
@@ -125,10 +150,6 @@ aside h2 {
     margin-right: 6rem;
 }
 
-main {
-    position: fixed;
-}
-
 main img {
     max-width: 280px;
     max-height: 450px;
@@ -159,13 +180,7 @@ main span {
     position: absolute;
 }
 
-main strong {
-    color: rgb(234, 236, 100);
-    font-size: max(30px, 2vw);
-    text-shadow: 0.7px 0.7px #d8cccc;
-    font-family: 'Amatic SC', cursive;
-    margin-left: 2rem;
-}
+
 
 main strong:hover {
     color: #eb4182;
