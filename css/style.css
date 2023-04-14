@@ -52,7 +52,7 @@ header h1 {
 
     .ster-eggs {
         margin-top: 26rem;
-        margin-left: 10rem;
+        margin-left: 11rem;
     }
 
     .ster-eggs img {
@@ -62,10 +62,10 @@ header h1 {
 
     main strong {
         color: rgb(234, 236, 100);
-        font-size: max(30px, 2vw);
+        font-size: max(36px, 2vw);
         text-shadow: 0.7px 0.7px #d8cccc;
         font-family: 'Amatic SC', cursive;
-        margin-left: 4rem;
+        margin-left: 6rem;
     }
 
     .box-present {
@@ -76,7 +76,7 @@ header h1 {
     }
 
     .box-present img {
-        margin: 3px;
+        margin: 8px;
         filter: opacity(.6);
     }
 
@@ -93,7 +93,7 @@ header h1 {
         background-color: rgba(0, 0, 0, 0.5);
         font-size: max(30px, 2vw);
         top: 9%;
-        margin-left: 10rem;
+        margin-left: -20rem;
         color: #ebf43c;
         transform: rotate(-35deg);
         box-shadow: 5px 5px 10px;
