@@ -10,13 +10,18 @@
 
     .ster-eggs img {
         margin:7px;
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
     }
 
     aside h2 {
-        font-size: max(28px, 1vw);
+        font-size: max(26px, 1vw);
     }
+
+    .fragmentacao-do-amor #equacao {
+        margin-left: 10rem;
+    }
+
 
     main {
         top: 6rem;

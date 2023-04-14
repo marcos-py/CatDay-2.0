@@ -21,8 +21,33 @@ function toggleCebolinha(){
     cebolinhaAudio.play();
 }
 
+function toggleTextinhoCientifico(){
+    document.getElementById('textinho').style.display = 'none';
+    document.getElementById('timeline').style.display = 'none';
+    document.getElementById('video-dos-gatinhos').style.display = 'none';
+    var display = document.getElementById('fragmentacao-do-amor').style.display;
+    if (display == 'none') {
+        document.getElementById('fragmentacao-do-amor').style.display = 'block';
+    } else {
+        document.getElementById('fragmentacao-do-amor').style.display = 'none';
+        document.getElementById('maps').style.display = 'none';
+    }
+}
+
+function toggleMaps(){
+    var display = document.getElementById('maps').style.display;
+    if (display == 'none') {
+        document.getElementById('maps').style.display = 'block';
+    } else {
+        document.getElementById('maps').style.display = 'none';
+    }
+}
+
+
 
 function toggleTextinho() {
+    document.getElementById('maps').style.display = 'none';
+    document.getElementById('fragmentacao-do-amor').style.display = 'none';
     document.getElementById('timeline').style.display = 'none';
     document.getElementById('video-dos-gatinhos').style.display = 'none';
     var display = document.getElementById('textinho').style.display;
@@ -34,6 +59,8 @@ function toggleTextinho() {
 }
 
 function toggleGatinho(){
+    document.getElementById('maps').style.display = 'none';
+    document.getElementById('fragmentacao-do-amor').style.display = 'none';
     document.getElementById('timeline').style.display = 'none';
     document.getElementById('textinho').style.display = 'none';
     var display = document.getElementById('video-dos-gatinhos').style.display;
@@ -46,6 +73,8 @@ function toggleGatinho(){
 
 
 function toggleTimeline(){
+    document.getElementById('maps').style.display = 'none';
+    document.getElementById('fragmentacao-do-amor').style.display = 'none';
     document.getElementById('textinho').style.display = 'none';
     document.getElementById('video-dos-gatinhos').style.display = 'none';
     var display = document.getElementById('timeline').style.display;
