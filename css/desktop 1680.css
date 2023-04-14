@@ -5,14 +5,17 @@
     }
 
     .ster-eggs {
-        margin-top: 30rem;
+        margin-top: 31rem;
     }
 
     .ster-eggs img {
-        margin:8px;
-        width: 80px;
-        height: 80px;
-        margin-left: 0rem;
+        margin:7px;
+        width: 70px;
+        height: 70px;
+    }
+
+    aside h2 {
+        font-size: max(28px, 1vw);
     }
 
     main p {
