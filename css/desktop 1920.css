@@ -1,0 +1,15 @@
+@media (min-width: 1700px) {
+    .ster-eggs {
+        margin-top: 34rem;
+        margin-left: 11rem;
+    }
+
+    main p {
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+
+    .box-present {
+        margin-left: 3rem;
+    }
+}

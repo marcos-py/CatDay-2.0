@@ -1,0 +1,29 @@
+@media (min-width: 1600px) {
+    header h1 {
+        margin-top: 22rem;
+        margin-left: 9rem;
+    }
+
+    .ster-eggs {
+        margin-top: 30rem;
+    }
+
+    .ster-eggs img {
+        margin:8px;
+        width: 80px;
+        height: 80px;
+        margin-left: 0rem;
+    }
+
+    main p {
+        font-size: max(20px, 2vw);
+        text-align: center;
+    }
+
+    main span {
+        top: 48%;
+    }
+
+    
+    
+}

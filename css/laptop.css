@@ -1,0 +1,42 @@
+@media (min-width: 1350px) {
+    header h1 {
+        margin-top: 18rem;
+        margin-left: 7rem;
+    }
+
+    .ster-eggs {
+        margin-top: 26rem;
+        margin-left: 10rem;
+    }
+
+    aside h2 {
+        font-size: max(26px, 1vw);
+    }
+
+    main {
+        top: 3rem;
+    }
+
+    main button {   
+        top: 4rem;
+    }
+
+    main span {
+        top: 20rem;
+    }
+
+    main p {
+        margin-left: 2rem;
+    }
+    .box-present {
+        margin-left: 2rem;
+
+    }
+
+    
+
+    
+
+    
+
+}
