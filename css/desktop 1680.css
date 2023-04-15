@@ -22,15 +22,6 @@
         margin-left: 10rem;
     }
 
-
-    main {
-        top: 6rem;
-    }
-
-    main button {
-        top: 6rem;
-    }
-
     main p {
         font-size: max(20px, 2vw);
         text-align: center;

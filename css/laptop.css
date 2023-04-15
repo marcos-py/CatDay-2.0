@@ -5,13 +5,13 @@
     }
 
     .ster-eggs {
-        margin-top: 24rem;
+        margin-top: 26rem;
         margin-left: 12rem;
     }
 
     .ster-eggs img {
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
     }
 
     aside h2 {
@@ -23,11 +23,11 @@
     }
 
     main {
-        top: 0.1rem;
+        top: 6rem;
     }
 
     main button {
-        top: 1rem;
+        top: 6rem;
     }
 
     main span {
