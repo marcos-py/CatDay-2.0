@@ -118,7 +118,7 @@ main strong {
     font-size: max(36px, 2vw);
     text-shadow: 0.7px 0.7px #d8cccc;
     font-family: 'Amatic SC', cursive;
-    margin-left: 0rem;
+    margin-left: -22rem;
 }
 
 main strong:hover {
