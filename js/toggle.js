@@ -3,25 +3,25 @@ const loboAudio = document.getElementById('lobo-pede');
 const cebolinhaAudio = document.getElementById('cebolinha');
 
 
-function toggleAudioUkulele(){
+function toggleAudioUkulele() {
     loboAudio.pause();
     cebolinhaAudio.pause();
     ukuleleAudio.play();
 }
 
-function toggleLobo(){  
+function toggleLobo() {
     cebolinhaAudio.pause();
-    ukuleleAudio.pause();  
+    ukuleleAudio.pause();
     loboAudio.play();
 }
 
-function toggleCebolinha(){
-    ukuleleAudio.pause();  
+function toggleCebolinha() {
+    ukuleleAudio.pause();
     loboAudio.pause();
     cebolinhaAudio.play();
 }
 
-function toggleTextinhoCientifico(){
+function toggleTextinhoCientifico() {
     document.getElementById('textinho').style.display = 'none';
     document.getElementById('timeline').style.display = 'none';
     document.getElementById('video-dos-gatinhos').style.display = 'none';
@@ -34,7 +34,7 @@ function toggleTextinhoCientifico(){
     }
 }
 
-function toggleMaps(){
+function toggleMaps() {
     var display = document.getElementById('maps').style.display;
     if (display == 'none') {
         document.getElementById('maps').style.display = 'block';
@@ -58,7 +58,7 @@ function toggleTextinho() {
     }
 }
 
-function toggleGatinho(){
+function toggleGatinho() {
     document.getElementById('maps').style.display = 'none';
     document.getElementById('fragmentacao-do-amor').style.display = 'none';
     document.getElementById('timeline').style.display = 'none';
@@ -72,7 +72,7 @@ function toggleGatinho(){
 }
 
 
-function toggleTimeline(){
+function toggleTimeline() {
     document.getElementById('maps').style.display = 'none';
     document.getElementById('fragmentacao-do-amor').style.display = 'none';
     document.getElementById('textinho').style.display = 'none';
