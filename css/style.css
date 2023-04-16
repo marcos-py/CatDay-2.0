@@ -69,11 +69,16 @@ aside h2 {
 
 #cats {
     position: fixed;
-    margin-top: 5rem;
+    margin-top: 14rem;
     margin-left: 2rem;
     border-radius: 10px;
     box-shadow: 3px 3px 3px 1px rgb(252, 250, 250);
     filter: opacity(.6);
+}
+
+.video-dos-gatinhos h2 {
+    position: fixed;
+    width: 25%;
 }
 
 main {
