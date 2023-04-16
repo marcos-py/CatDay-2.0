@@ -52,16 +52,16 @@ aside h2 {
     font-size: max(30px, 1vw);
 }
 
-.fragmentacao-do-amor {
+#coordenadas-do-amor {
     margin-top: 2rem;
 }
 
-.fragmentacao-do-amor a {
+#coordenadas-do-amor a {
     text-decoration: none;
     color: #eb4182;
 }
 
-.fragmentacao-do-amor #equacao {
+#coordenadas-do-amor #coordenadas {
     width: 100px;
     height: 100px;
     margin-left: 11rem;
@@ -132,17 +132,6 @@ main p {
     margin-left: 11rem;
 }
 
-.box-present {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-}
-
-.box-present img {
-    margin: 8px;
-    filter: opacity(.6);
-}
-
-.box-present img:hover {
-    transform: scale(1.5);
+main audio {
+    margin-left: 3rem;
 }
